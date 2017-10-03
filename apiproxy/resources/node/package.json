@@ -1,0 +1,15 @@
+{ 
+	"name": "online_prediction", 
+	"version": "0.0.1", 
+	"description": "google apis", 
+	"main": "server.js", 
+	"scripts": { "start": "node server.js" }, 
+	"author": "Apigee", 
+	"license": "", 
+	"dependencies": { 
+	  "googleapis": "^10.0.0", 
+	  "httpreq": "",
+	  "http": "",
+	  "apigee-access": ""
+	} 
+}

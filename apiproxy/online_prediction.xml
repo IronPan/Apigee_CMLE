@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="online_prediction">
+    <Basepaths>/</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1506928804643</CreatedAt>
+    <CreatedBy>yangpa@google.com</CreatedBy>
+    <DisplayName>online_prediction</DisplayName>
+    <LastModifiedAt>1507010944781</LastModifiedAt>
+    <LastModifiedBy>yangpa@google.com</LastModifiedBy>
+    <Policies/>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>node://node_modules_apigee-access.zip</Resource>
+        <Resource>node://node_modules_googleapis.zip</Resource>
+        <Resource>node://node_modules_http.zip</Resource>
+        <Resource>node://node_modules_httpreq.zip</Resource>
+        <Resource>node://node_modules_request.zip</Resource>
+        <Resource>node://package.json</Resource>
+        <Resource>node://server.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+    <validate>false</validate>
+</APIProxy>
