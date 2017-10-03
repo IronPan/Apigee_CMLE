@@ -53,5 +53,8 @@ Where:
 * ORG: Your Apigee organization name
 
 
-To use, send a online prediction request to Apigee endpoint
+To use, send a online prediction request to Apigee endpoint. For example, here is an sample online prediction request for census model.
 
+```
+curl -H "Content-Type: application/json" -X POST -d '{"instances":[{"age":25,"workclass":"Private","education":"11th","education_num":1,"marital_status":"Never-married","occupation":"Machine-op-inspct","relationship":"Own-child","race":"Black","gender":"Female","capital_gain":0,"capital_loss":0,"hours_per_week":40,"native_country":"United-States"}]}' http://[your-endpoint].apigee.net/
+```
